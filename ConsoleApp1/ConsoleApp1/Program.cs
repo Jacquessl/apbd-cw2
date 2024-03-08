@@ -17,13 +17,13 @@ class MyClass
 
     static int featureAverage(int[] tab)
     {
-        int sum = 0;
+        int suma = 0;
         for (int i = 0; i < tab.Length; i++)
         {
-            sum += tab[i];
+            suma += tab[i];
         }
 
-        return sum / tab.Length;
+        return suma / tab.Length;
     }
 
     static int featureMax(int[] tab)
