@@ -5,3 +5,4 @@ Console.WriteLine("Modyfikacja 1");
 Console.WriteLine("Modyfikacja 2");
 Console.WriteLine("Modyfikacja 3");
 Console.WriteLine("Wymaganie 1");
+Console.WriteLine("Wymaganie 2");
