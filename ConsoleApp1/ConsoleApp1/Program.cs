@@ -10,6 +10,7 @@ class MyClass
         Console.WriteLine("Modyfikacja 3");
         
         Console.WriteLine("Wymaganie 1: " + featureAverage(new int[]{1,2,3,4,5,6}));
+        Console.WriteLine("Wymaganie 2: " + featureMax(new int[]{1,2,3,4,5,6}));
         
     }
 
@@ -22,6 +23,20 @@ class MyClass
         }
 
         return sum / tab.Length;
+    }
+
+    static int featureMax(int[] tab)
+    {
+        int max = -1;
+        for (int i = 0; i<tab.Length;i++)
+        {
+            if (tab[i] > max)
+            {
+                max = tab[i];
+            }
+        }
+
+        return max;
     }
 }
 
