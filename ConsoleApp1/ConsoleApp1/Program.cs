@@ -17,6 +17,7 @@ class MyClass
 
     static int featureAverage(int[] tab)
     {
+
         int suma = 0;
         for (int i = 0; i < tab.Length; i++)
         {
@@ -24,6 +25,7 @@ class MyClass
         }
 
         return suma / tab.Length;
+
     }
 
     static int featureMax(int[] tab)
